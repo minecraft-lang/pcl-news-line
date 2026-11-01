@@ -1,0 +1,7 @@
+{
+  "domain": "https://pcl-news-home.vercel.app",
+  "title": "PCL 新闻主页 | Minecraft 启动器资讯",
+  "desc": "Plain Craft Launcher 自定义新闻主页：我的世界启动器资讯聚合，Java 版基岩版更新、快照与公告时间线，支持 PCL 联网更新。",
+  "keywords": ["Minecraft 启动器", "PCL 自定义主页", "我的世界启动器主页", "Plain Craft Launcher", "MC 启动器", "PCL 新闻主页", "启动器主页", "我的世界启动器", "PCL 主页", "Minecraft 启动器主页"],
+  "repo_url": "https://github.com/minecraft-lang/pcl-news-line"
+}
