@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCL 新闻主页 | Minecraft 启动器资讯</title>
+  <meta name="description" content="Plain Craft Launcher 自定义新闻主页：我的世界启动器资讯聚合，Java 版基岩版更新、快照与公告时间线，支持 PCL 联网更新。">
+  <meta name="keywords" content="Minecraft 启动器, PCL 自定义主页, 我的世界启动器主页, Plain Craft Launcher, MC 启动器, PCL 新闻主页, 启动器主页, 我的世界启动器, PCL 主页, Minecraft 启动器主页">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pcl-news-home.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PCL 新闻主页 | Minecraft 启动器资讯">
+  <meta property="og:description" content="Plain Craft Launcher 自定义新闻主页：我的世界启动器资讯聚合，Java 版基岩版更新、快照与公告时间线，支持 PCL 联网更新。">
+  <meta property="og:url" content="https://pcl-news-home.vercel.app/">
+  <meta property="og:site_name" content="PCL 新闻主页 | Minecraft 启动器资讯">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="PCL 新闻主页 | Minecraft 启动器资讯">
+  <meta name="twitter:description" content="Plain Craft Launcher 自定义新闻主页：我的世界启动器资讯聚合，Java 版基岩版更新、快照与公告时间线，支持 PCL 联网更新。">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "PCL 新闻主页 | Minecraft 启动器资讯", "url": "https://pcl-news-home.vercel.app/", "description": "Plain Craft Launcher 自定义新闻主页：我的世界启动器资讯聚合，Java 版基岩版更新、快照与公告时间线，支持 PCL 联网更新。", "keywords": "Minecraft 启动器, PCL 自定义主页, 我的世界启动器主页, Plain Craft Launcher, MC 启动器, PCL 新闻主页, 启动器主页, 我的世界启动器, PCL 主页, Minecraft 启动器主页", "inLanguage": "zh-CN"}</script>
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:-apple-system,'Segoe UI','Microsoft YaHei',sans-serif; background:#fafafa; color:#111; }
+    .wrap { max-width:760px; margin:0 auto; padding:56px 24px; }
+    h1 { font-size:44px; font-weight:800; letter-spacing:-1px; }
+    .slogan { color:#666; font-size:15px; margin:10px 0 40px; }
+    .copy { display:flex; gap:8px; margin-bottom:40px; }
+    .copy input { flex:1; padding:10px 12px; border:1px solid #ddd; border-radius:8px; font-size:13px; color:#333; background:#fff; }
+    .copy button { padding:10px 16px; border:0; border-radius:8px; background:#111; color:#fff; cursor:pointer; font-weight:600; }
+    .timeline { border-left:3px solid #e2e2e2; padding-left:22px; }
+    .item { position:relative; margin-bottom:28px; }
+    .item::before { content:''; position:absolute; left:-29px; top:6px; width:11px; height:11px; border-radius:50%; background:#ff4d4f; }
+    .tag { font-size:12px; color:#fff; padding:2px 8px; border-radius:4px; font-weight:600; }
+    .item h3 { font-size:19px; margin:8px 0 4px; }
+    .item time { color:#999; font-size:12px; }
+    .item p { color:#444; font-size:14px; line-height:1.7; margin-top:6px; }
+    .about { background:#fff; border:1px solid #eee; border-radius:12px; padding:22px; margin-top:36px; line-height:1.8; color:#333; }
+    .footer { color:#aaa; font-size:13px; margin-top:36px; padding-top:16px; border-top:1px solid #eee; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>PCL 新闻主页</h1>
+    <div class="slogan">Minecraft 启动器资讯 · 我的世界更新时间线</div>
+    <div class="copy">
+      <input readonly value="https://pcl-news-home.vercel.app/PCL_MinecraftNewsPage.xaml" id="urlB">
+      <button onclick="navigator.clipboard.writeText(document.getElementById('urlB').value)">复制地址</button>
+    </div>
+    <section class="timeline">
+<article class="news-item">
+        <span class="tag" style="background:#3CAEEF">版本更新</span>
+        <h3>Java 26.3「Wilderness Bound」正式版发布</h3>
+        <time>2026-10-29</time>
+        <p>荒野主题更新正式上线，包含新的林地生态、远行机制与多项性能优化，Java 版玩家可直接更新体验。</p>
+      </article>
+<article class="news-item">
+        <span class="tag" style="background:#3CAEEF">版本更新</span>
+        <h3>基岩版 26.52 正式版发布</h3>
+        <time>2026-10-28</time>
+        <p>基岩版同步推送 26.52 正式版，修复跨平台联机稳定性问题，并带来移动端触控优化。</p>
+      </article>
+<article class="news-item">
+        <span class="tag" style="background:#8BD66F">快照预览</span>
+        <h3>26.4 Snapshot 5：密冰块砖</h3>
+        <time>2026-10-25</time>
+        <p>新快照加入密冰块砖方块，可用于建造与装饰，同时调整了寒冷群系的生成参数。</p>
+      </article>
+<article class="news-item">
+        <span class="tag" style="background:#8BD66F">快照预览</span>
+        <h3>26.4 Snapshot 6：雪砖</h3>
+        <time>2026-10-18</time>
+        <p>快照 6 带来雪砖系列方块，雪原建筑有了更丰富的素材，并修复了多项崩溃问题。</p>
+      </article>
+<article class="news-item">
+        <span class="tag" style="background:#8BD66F">快照预览</span>
+        <h3>基岩版 26.70「Ice Caves」预览</h3>
+        <time>2026-10-11</time>
+        <p>基岩版预览版加入冰洞地形生成，洞穴探险迎来全新视觉体验，等待玩家测试反馈。</p>
+      </article>
+<article class="news-item">
+        <span class="tag" style="background:#FFD86F">官方公告</span>
+        <h3>Minecraft Live 2026：全新维度「Sift 筛界」</h3>
+        <time>2026-10-04</time>
+        <p>年度盛会公布新维度「Sift 筛界」，拥有独特的筛滤机制与矿物生态，2027 年春季上线。</p>
+      </article>
+<article class="news-item">
+        <span class="tag" style="background:#FFD86F">官方公告</span>
+        <h3>Dungeons II 发售在即，预购赠 Aurora 披风</h3>
+        <time>2026-09-27</time>
+        <p>地牢续作 Dungeons II 即将发售，预购玩家可获限定 Aurora 披风，联动内容同步上线。</p>
+      </article>
+<article class="news-item">
+        <span class="tag" style="background:#FF6FA5">平台资讯</span>
+        <h3>我的世界 Switch 2 版公布</h3>
+        <time>2026-09-20</time>
+        <p>官方宣布 Switch 2 版本正在开发，支持跨平台存档与增强画面，发售时间待定。</p>
+      </article>
+<article class="news-item">
+        <span class="tag" style="background:#B39DFF">Wiki 动态</span>
+        <h3>Minecraft Wiki 离线版更新</h3>
+        <time>2026-09-15</time>
+        <p>中文 Minecraft Wiki 离线版更新至最新版本，支持 PCL 内嵌浏览，数据与在线版同步。</p>
+      </article>
+    </section>
+    <div class="about">
+      <h2>关于本站</h2>
+      <p>本站为 <b>Plain Craft Launcher（PCL）</b> 启动器提供 <b>我的世界启动器主页</b> 服务，聚合 <b>Minecraft</b> 的版本更新、快照、公告资讯，数据源为 <b>Minecraft Wiki</b>。在 PCL「<b>联网更新</b>」中填写上方地址即可订阅加载，适合启动器主页、个人导航与服务器公告。</p>
+      <p>搜索 Minecraft 启动器、PCL 自定义主页、我的世界启动器主页？这里就是你要找的页面。</p>
+    </div>
+    <div class="footer">数据源 Minecraft Wiki · 托管于 Vercel</div>
+  </div>
+</body>
+</html>
