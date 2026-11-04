@@ -32,15 +32,113 @@
       <GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
       <GroupBox.Header>
         <StackPanel Orientation="Horizontal">
-          <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
-            <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
+          <Border Background="#3CAEEF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
+            <TextBlock Text="版本更新" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
           </Border>
-          <TextBlock Text="21159 The Pillager Outpost" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+          <TextBlock Text="Java 26.3「Wilderness Bound」正式版发布" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
         </StackPanel>
       </GroupBox.Header>
       <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：21159 The Pillager Outpost" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+        <TextBlock Text="2026-10-29" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="荒野主题更新正式上线，包含新的林地生态、远行机制与多项性能优化，Java 版玩家可直接更新体验。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+      </StackPanel>
+    </GroupBox>
+<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
+      <GroupBox.Header>
+        <StackPanel Orientation="Horizontal">
+          <Border Background="#3CAEEF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
+            <TextBlock Text="版本更新" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
+          </Border>
+          <TextBlock Text="基岩版 26.52 正式版发布" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+      </GroupBox.Header>
+      <StackPanel>
+        <TextBlock Text="2026-10-28" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="基岩版同步推送 26.52 正式版，修复跨平台联机稳定性问题，并带来移动端触控优化。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+      </StackPanel>
+    </GroupBox>
+<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
+      <GroupBox.Header>
+        <StackPanel Orientation="Horizontal">
+          <Border Background="#8BD66F" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
+            <TextBlock Text="快照预览" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
+          </Border>
+          <TextBlock Text="26.4 Snapshot 5：密冰块砖" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+      </GroupBox.Header>
+      <StackPanel>
+        <TextBlock Text="2026-10-25" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="新快照加入密冰块砖方块，可用于建造与装饰，同时调整了寒冷群系的生成参数。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+      </StackPanel>
+    </GroupBox>
+<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
+      <GroupBox.Header>
+        <StackPanel Orientation="Horizontal">
+          <Border Background="#8BD66F" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
+            <TextBlock Text="快照预览" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
+          </Border>
+          <TextBlock Text="26.4 Snapshot 6：雪砖" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+      </GroupBox.Header>
+      <StackPanel>
+        <TextBlock Text="2026-10-18" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="快照 6 带来雪砖系列方块，雪原建筑有了更丰富的素材，并修复了多项崩溃问题。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+      </StackPanel>
+    </GroupBox>
+<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
+      <GroupBox.Header>
+        <StackPanel Orientation="Horizontal">
+          <Border Background="#8BD66F" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
+            <TextBlock Text="快照预览" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
+          </Border>
+          <TextBlock Text="基岩版 26.70「Ice Caves」预览" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+      </GroupBox.Header>
+      <StackPanel>
+        <TextBlock Text="2026-10-11" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="基岩版预览版加入冰洞地形生成，洞穴探险迎来全新视觉体验，等待玩家测试反馈。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+      </StackPanel>
+    </GroupBox>
+<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
+      <GroupBox.Header>
+        <StackPanel Orientation="Horizontal">
+          <Border Background="#FFD86F" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
+            <TextBlock Text="官方公告" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
+          </Border>
+          <TextBlock Text="Minecraft Live 2026：全新维度「Sift 筛界」" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+      </GroupBox.Header>
+      <StackPanel>
+        <TextBlock Text="2026-10-04" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="年度盛会公布新维度「Sift 筛界」，拥有独特的筛滤机制与矿物生态，2027 年春季上线。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+      </StackPanel>
+    </GroupBox>
+<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
+      <GroupBox.Header>
+        <StackPanel Orientation="Horizontal">
+          <Border Background="#FFD86F" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
+            <TextBlock Text="官方公告" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
+          </Border>
+          <TextBlock Text="Dungeons II 发售在即，预购赠 Aurora 披风" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+      </GroupBox.Header>
+      <StackPanel>
+        <TextBlock Text="2026-09-27" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="地牢续作 Dungeons II 即将发售，预购玩家可获限定 Aurora 披风，联动内容同步上线。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+      </StackPanel>
+    </GroupBox>
+<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
+      <GroupBox.Header>
+        <StackPanel Orientation="Horizontal">
+          <Border Background="#FF6FA5" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
+            <TextBlock Text="平台资讯" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
+          </Border>
+          <TextBlock Text="我的世界 Switch 2 版公布" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+      </GroupBox.Header>
+      <StackPanel>
+        <TextBlock Text="2026-09-20" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="官方宣布 Switch 2 版本正在开发，支持跨平台存档与增强画面，发售时间待定。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
       </StackPanel>
     </GroupBox>
 <GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
@@ -49,110 +147,12 @@
           <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
             <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
           </Border>
-          <TextBlock Text="21158 The Panda Nursery" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
+          <TextBlock Text="Minecraft Wiki 离线版更新" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
         </StackPanel>
       </GroupBox.Header>
       <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：21158 The Panda Nursery" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
-      </StackPanel>
-    </GroupBox>
-<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
-      <GroupBox.Header>
-        <StackPanel Orientation="Horizontal">
-          <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
-            <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
-          </Border>
-          <TextBlock Text="21157 BigFig Pig with Baby Zombie" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-      </GroupBox.Header>
-      <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：21157 BigFig Pig with Baby Zombie" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
-      </StackPanel>
-    </GroupBox>
-<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
-      <GroupBox.Header>
-        <StackPanel Orientation="Horizontal">
-          <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
-            <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
-          </Border>
-          <TextBlock Text="21156 BigFig Creeper and Ocelot" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-      </GroupBox.Header>
-      <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：21156 BigFig Creeper and Ocelot" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
-      </StackPanel>
-    </GroupBox>
-<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
-      <GroupBox.Header>
-        <StackPanel Orientation="Horizontal">
-          <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
-            <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
-          </Border>
-          <TextBlock Text="Minecraft Death Messages Song" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-      </GroupBox.Header>
-      <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：Minecraft Death Messages Song" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
-      </StackPanel>
-    </GroupBox>
-<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
-      <GroupBox.Header>
-        <StackPanel Orientation="Horizontal">
-          <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
-            <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
-          </Border>
-          <TextBlock Text="Death message song" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-      </GroupBox.Header>
-      <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：Death message song" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
-      </StackPanel>
-    </GroupBox>
-<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
-      <GroupBox.Header>
-        <StackPanel Orientation="Horizontal">
-          <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
-            <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
-          </Border>
-          <TextBlock Text="Potato bee" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-      </GroupBox.Header>
-      <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：Potato bee" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
-      </StackPanel>
-    </GroupBox>
-<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
-      <GroupBox.Header>
-        <StackPanel Orientation="Horizontal">
-          <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
-            <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
-          </Border>
-          <TextBlock Text="Favorites Bundle" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-      </GroupBox.Header>
-      <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：Favorites Bundle" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
-      </StackPanel>
-    </GroupBox>
-<GroupBox Style="{StaticResource NewsCard}" Margin="0,0,0,12">
-      <GroupBox.Header>
-        <StackPanel Orientation="Horizontal">
-          <Border Background="#B39DFF" CornerRadius="9" Padding="6,1,6,1" VerticalAlignment="Center">
-            <TextBlock Text="Wiki 动态" FontSize="11" Foreground="#FFFFFF" FontWeight="Bold"/>
-          </Border>
-          <TextBlock Text="Minecraft Blast 0.15.3451" FontSize="15" Foreground="#FFFFFF" FontWeight="Bold" Margin="8,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-      </GroupBox.Header>
-      <StackPanel>
-        <TextBlock Text="2026-11-02" FontSize="11" Foreground="#8B949E"/>
-        <TextBlock Text="Minecraft Wiki 近期更新：Minecraft Blast 0.15.3451" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
+        <TextBlock Text="2026-09-15" FontSize="11" Foreground="#8B949E"/>
+        <TextBlock Text="中文 Minecraft Wiki 离线版更新至最新版本，支持 PCL 内嵌浏览，数据与在线版同步。" FontSize="12" Foreground="#C9D1DC" TextWrapping="Wrap" Margin="0,6,0,0"/>
       </StackPanel>
     </GroupBox>
     </StackPanel>
